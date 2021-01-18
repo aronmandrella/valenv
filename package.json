@@ -1,15 +1,15 @@
 {
   "name": "valenv",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "author": "Aron Mandrella",
   "license": "MIT",
   "description": "Customizable process.env checker with NODE_ENV preset. Has a value validation feature.",
   "engines": {
     "node": ">=7"
   },
-  "main": "./dist/main.js",
+  "main": "dist/main.js",
   "files": [
-    "./dist/main.js"
+    "dist/main.js"
   ],
   "keywords": [
     "node",

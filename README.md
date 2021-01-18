@@ -1,10 +1,10 @@
-<img src="./media/valenv.png" />
+<img src="https://raw.githubusercontent.com/aronmandrella/valenv/main/media/valenv.png" />
 
 ---
 
 > Process environment checking utility with value validation
 
-<img src="./media/console.png" width="600"/>
+<img src="https://raw.githubusercontent.com/aronmandrella/valenv/main/media/console.png" width="600"/>
 
 ---
 
@@ -13,7 +13,7 @@
 ## Install
 
 ```
-npm install check-process-env --save-dev
+npm install valenv --save-dev
 ```
 
 <br>
