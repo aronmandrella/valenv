@@ -1,0 +1,45 @@
+{
+  "name": "valenv",
+  "version": "1.0.0",
+  "author": "Aron Mandrella",
+  "license": "MIT",
+  "description": "Customizable process.env checker with NODE_ENV preset. Has a value validation feature.",
+  "engines": {
+    "node": ">=7"
+  },
+  "main": "./dist/main.js",
+  "files": [
+    "./dist/main.js"
+  ],
+  "keywords": [
+    "node",
+    "env",
+    "NODE_ENV",
+    "development",
+    "production",
+    "test",
+    "check",
+    "checker",
+    "process",
+    "process.env",
+    "environment",
+    "utility",
+    "validation",
+    "validate"
+  ],
+  "scripts": {
+    "start": "webpack && node test.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.8.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
